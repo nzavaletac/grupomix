@@ -1,0 +1,16 @@
+.proveedores--principal {
+  display: flex;
+  width: 100%;
+  height: auto;
+  font-family: $Fuente;
+  color: $color-primario;
+  text-align: center;
+  justify-content: space-evenly;
+  &-container {
+    width: 1140px;
+    z-index: -1;
+    h2 {
+      font-size: 36px;
+    }
+  }
+}

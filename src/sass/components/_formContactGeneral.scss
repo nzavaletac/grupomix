@@ -1,0 +1,29 @@
+.form--principal-general {
+  display: flex;
+  padding: 15px;
+  width: 100%;
+  justify-content: space-evenly;
+  font-family: $Fuente;
+  color: $color-blanco;
+  background-image: url("https://fortemix.pe/wp-content/uploads/2020/01/contacto-cementopreparado.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.form--principal-container-general {
+  display: flex;
+  // background-color: $color-primario;
+  width: 1140px;
+}
+.form--contacto-general {
+  font-size: 14px;
+  // background-color: $color-primario;
+}
+
+.form--formulario-general {
+  // background-color: $color-primario;
+  button {
+    color: $color-blanco;
+    background-color: $color-boton;
+  }
+}

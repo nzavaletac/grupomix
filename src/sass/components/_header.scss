@@ -1,0 +1,50 @@
+.header--principal {
+  display: flex;
+  height: 90px;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #ebebeb;
+  z-index: 0;
+}
+
+.logo--header {
+  img {
+    margin-right: auto;
+    width: 200px;
+  }
+}
+.nav--header {
+  background-color: $color-blanco;
+  padding: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: fixed;
+  z-index: 0;
+}
+
+main {
+  z-index: -1;
+  // position: static;
+}
+
+.nav--header ul {
+  display: none;
+  transition: 1s;
+  // z-index: 1;
+  li {
+    list-style: none;
+    margin: 16px;
+    :hover {
+      color: $color-boton;
+      text-decoration: none;
+    }
+  }
+  a {
+    color: $color-primario;
+    // color: white;
+    font-family: $Fuente;
+  }
+  @include media(desktop-s) {
+    display: flex;
+  }
+}

@@ -1,0 +1,45 @@
+.mixers {
+  display: flex;
+  padding: 20px;
+  margin: 0px;
+  width: auto;
+  font-family: $Fuente;
+  justify-content: space-evenly;
+  &-container {
+    width: 1140px;
+    padding: 20px;
+  }
+}
+
+.mixers--container-mixers {
+  display: flex;
+  color: $color-secundario;
+  justify-content: space-evenly;
+  padding: 15px;
+  &-contenido {
+    padding: -15px;
+    background-color: #fffffff2;
+
+    img {
+      max-width: 100%;
+    }
+    h3 {
+      color: $color-primario;
+      font-size: 30px;
+      display: block;
+    }
+    h3::after {
+      content: "";
+      color: $color-boton;
+      margin: 12px 0 0;
+      display: block;
+      width: 52px;
+      height: 3px;
+      background: #6c98e1;
+      box-sizing: border-box;
+    }
+    button {
+      background-color: $color-variacion;
+    }
+  }
+}

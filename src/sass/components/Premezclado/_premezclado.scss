@@ -1,0 +1,45 @@
+.premezclado--principal {
+  display: flex;
+  padding: 20px;
+  width: 100%;
+  font-family: $Fuente;
+  justify-content: space-evenly;
+
+  &-container {
+    color: $color-secundario;
+    width: 1140px;
+    display: flex;
+    justify-content: space-evenly;
+    // z-index: -1;
+  }
+}
+.premezclado--principal-contenido {
+  display: block;
+  padding: 20px;
+  h2 {
+    color: $color-primario;
+    padding-top: 30px;
+    font-size: 30px;
+  }
+  h2::after {
+    content: "";
+    color: $color-boton;
+    margin: 12px 0 0;
+    display: block;
+    width: 52px;
+    height: 3px;
+    background: #6c98e1;
+    box-sizing: border-box;
+  }
+  p {
+    padding-top: 20px;
+  }
+  button {
+    background-color: $color-variacion;
+    color: $color-primario;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}

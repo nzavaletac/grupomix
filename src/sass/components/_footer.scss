@@ -1,0 +1,60 @@
+.footer--principal {
+  display: flex;
+  padding: 15px;
+  margin: 0px;
+  width: auto;
+  height: auto;
+  justify-content: space-evenly;
+  background-color: $color-primario;
+  font-family: $Fuente;
+  color: $color-blanco;
+}
+.footer--principal-container {
+  display: flex;
+  width: 1140px;
+  padding: 20px;
+}
+
+.logo--footer {
+  img {
+    margin-right: auto;
+    width: 200px;
+  }
+  p {
+    font-size: 14px;
+    color: $color-blanco;
+    text-align: justify;
+  }
+}
+
+.secciones--footer {
+  h4 {
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 15px;
+  }
+  ul {
+    display: contents;
+    li {
+      list-style: none;
+      margin: 10px;
+      :hover {
+        color: $color-boton;
+        text-decoration: none;
+      }
+    }
+    a {
+      font-size: 14px;
+      color: $color-blanco;
+    }
+  }
+}
+
+.contacto--footer {
+  h4 {
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 15px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
